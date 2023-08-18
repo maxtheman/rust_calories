@@ -1,0 +1,14 @@
+{
+  "name": "rust_calories",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler publish",
+    "dev": "wrangler dev --local",
+    "test": "node integrationTests.mjs"
+  },
+  "devDependencies": {
+    "miniflare": "^3.20230814.1",
+    "wrangler": "^2.20.0"
+  }
+}
